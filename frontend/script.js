@@ -25,3 +25,8 @@
                 this.style.animation = 'glow 0.5s ease-in-out';
             });
         });
+
+        // Placeholder for openSchoolsModal function
+        function openSchoolsModal() {
+            alert('Displaying schools in Kehancha Town:\n- KMTC Kehancha\n- Kehancha TVET\n- Various Primary & Secondary Schools\n- Numerous Kindergartens');
+        }

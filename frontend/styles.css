@@ -289,6 +289,27 @@
             z-index: 10;
         }
 
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        /* History Section Specifics */
+        .history-content {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 20px;
+            padding: 3rem;
+            backdrop-filter: blur(10px);
+        }
+
         /* About Kuria */
         .about {
             background: rgba(255, 255, 255, 0.05);
@@ -309,6 +330,21 @@
             line-height: 1.8;
             margin-bottom: 1rem;
             font-size: 1.05rem;
+        }
+
+        /* Button Link for Services */
+        .btn-link {
+            background: none;
+            border: none;
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 1rem;
+            text-decoration: underline;
+            margin-top: 1rem;
+            transition: color 0.3s ease;
+        }
+        .btn-link:hover {
+            color: var(--primary);
         }
 
         /* Stats */
